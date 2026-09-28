@@ -11,6 +11,7 @@ namespace lect11.Models
 
         public string[] workdays { get; set; } = Array.Empty<string>();
 
+        
         public DOCTOR_PROFESSION[] doctorprofesion { get; set; } = Array.Empty<DOCTOR_PROFESSION>();
         public Doctor() : base()
         {

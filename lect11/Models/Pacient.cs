@@ -9,6 +9,7 @@ namespace lect11.Models
     {
         public Pacient() : base()
         {
+
             
         }
 
@@ -16,5 +17,12 @@ namespace lect11.Models
         {
             
         }
+
+        public void pacientinfo()
+        {
+            Console.WriteLine($"pacient id {Id} ; fullname {Fullname} ; person id {PersonId} ; phone number {Phonenumber} , age {Age}");
+        }
+
+        
     }
 }

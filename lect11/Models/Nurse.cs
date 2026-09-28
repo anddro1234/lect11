@@ -6,8 +6,11 @@ using System.Text;
 
 namespace lect11.Models
 {
-    internal class Nurse : User
+   internal class Nurse : User
     {
+
+        
+       
         public Nurse() : base()
         { 
             
@@ -24,6 +27,15 @@ namespace lect11.Models
             docprof = doctorprofecion;
         }
     
-    
+
+        public void GetNurse()
+        {
+            Console.WriteLine($"fullname: {Fullname}, age : {Age}, phone number: {Phonenumber}, salary: {Salary}, workday: {string.Join(", ", workday)}, doctor profession: {string.Join(", ", docprof)}");
+        }
+
+        public void getdoctorjob()
+        {
+            Console.WriteLine(Fullname);
+        }
     }
 }
